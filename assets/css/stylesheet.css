@@ -191,10 +191,10 @@
         position: relative;
         transition: all .3s;
     }
-    .gnavi__list:hover {
+    /*.gnavi__list:hover {
         background-color: #4d3217;
         border: 2px solid #fc8819;
-    }
+    }*/
     .gnavi__list:not(:first-child)::before {
         content: "";
         width: 1px;
@@ -204,9 +204,9 @@
         left: 0;
         transition: all .3s;
     }
-    .gnavi__list:hover::before {
+    /*.gnavi__list:hover::before {
         background-color: #4d3217;
-    }
+    }*/
     .gnavi__list a {
         display: flex;
         justify-content: center;
@@ -220,9 +220,9 @@
         font-weight: 600;
         transition: all .3s;
     }
-    .gnavi__list:hover a {
+    /*.gnavi__list:hover a {
         color: #fc8819;
-    }
+    }*/
     .dropdown__lists {
         transform: scaleY(0);/*デフォルトでは非表示の状態にしておく*/
         transform-origin: center top;/*変形を適応する基準をtopとする*/
@@ -232,9 +232,9 @@
         top: 60px;
         left: 0;
     }
-    .gnavi__list:hover .dropdown__lists {
-        transform: scaleY(1);/*Gナビメニューにホバーしたら表示*/
-    }
+    /*.gnavi__list:hover .dropdown__lists {
+        transform: scaleY(1);*//*Gナビメニューにホバーしたら表示*/
+    /*}*/
     .dropdown__list {
         background-color:#4d3217;
         /*border-top: 1px solid #fc8819;
@@ -254,12 +254,12 @@
         top: 0;
         left: 0;
     }
-    .dropdown__list:hover a {
+    /*.dropdown__list:hover a {
         color:#4d3217;
     }
     .dropdown__list:hover {
         background-color: #fc8819;
-    }
+    }*/
     .dropdown__list a {
         display: flex;
         justify-content: center;
