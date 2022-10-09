@@ -22,9 +22,22 @@
         position: absolute;
         top:50%;
         left:50%;
-        transform: translate(-50%, 150%);   
+        width: 100%;
+        transform: translate(-50%, -50%);   
         margin:auto;
     }
 }
 @media screen and (max-width: 480px) {
+    .l2022lists {
+        position: relative;
+    }
+    .l2022name{
+        color:white;
+        position: absolute;
+        top:50%;
+        left:50%;
+        width: 100%;
+        transform: translate(-50%, -50%);   
+        margin:auto;
+    }
 }
