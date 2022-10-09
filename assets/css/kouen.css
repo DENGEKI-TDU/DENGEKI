@@ -1,0 +1,30 @@
+@media screen and (min-width: 481px){
+    .l2022{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .l2022list{
+        display: flex;
+    }
+    .l2022lists {
+        width: 33%;
+        height: 60px;
+        margin:10px;
+        position: relative;
+        transition: all .3s;
+    }
+    .l2022lists:hover{
+        width:31.5%;
+        margin:20px;
+    }
+    .l2022name{
+        color:white;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, 150%);   
+        margin:auto;
+    }
+}
+@media screen and (max-width: 480px) {
+}
