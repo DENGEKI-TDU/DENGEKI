@@ -13,8 +13,10 @@
         transition: all .3s;
     }
     .l2022lists:hover{
-        width:31.5%;
-        margin:20px;
+        width:31.8%;
+        margin-top:20px;
+        margin-left:20px;
+        margin-right:20px;
     }
     .l2022name{
         color:white;
