@@ -8,7 +8,6 @@
     }
     .l2022lists {
         width: 33%;
-        height: 60px;
         margin:10px;
         position: relative;
         transition: all .3s;
@@ -39,5 +38,8 @@
         width: 100%;
         transform: translate(-50%, -50%);   
         margin:auto;
+    }
+    .yamada-annai{
+        font-size: 8pt;
     }
 }
