@@ -34,19 +34,19 @@ let writer05 = 'ると'
 let tag05 = 'きつねの日常'
 
 let t01 = document.getElementById('No01').innerHTML;
-document.getElementById('No01').innerHTML = '<a href="'+year01+'/'+month01+'/'+month01+day1+'.html" target="_parent"><h1>'+title01+'</h1></a>';
+document.getElementById('No01').innerHTML = '<a href="https://dengeki-tdu.github.io/DENGEKI/article/fox/'+year01+'/'+month01+'/'+month01+day1+'.html" target="_parent"><h1>'+title01+'</h1></a>';
 let t01_1 = document.getElementById('No01-1').innerHTML;
-document.getElementById('No01-1').innerHTML = '<a href="'+year01+'/'+month01+'/'+month01+day1+'.html" target="_parent"><h1>'+title01+'</h1></a>';
+document.getElementById('No01-1').innerHTML = '<a href="https://dengeki-tdu.github.io/DENGEKI/article/fox/'+year01+'/'+month01+'/'+month01+day1+'.html" target="_parent"><h1>'+title01+'</h1></a>';
 let y01 = document.getElementById('year1').innerHTML;
-document.getElementById('year1').innerHTML = '<a href="'+year01+'/'+year01+'.html" target="_parent">'+year01+'</a>';
+document.getElementById('year1').innerHTML = '<a href="https://dengeki-tdu.github.io/DENGEKI/article/fox/'+year01+'/'+year01+'.html" target="_parent">'+year01+'</a>';
 let m01 = document.getElementById('month1').innerHTML;
-document.getElementById('month1').innerHTML = '<a href="'+year01+'/'+month01+'/'+month01+'.html" target="_parent">'+month01+'</a>';
+document.getElementById('month1').innerHTML = '<a href="https://dengeki-tdu.github.io/DENGEKI/article/fox/'+year01+'/'+month01+'/'+month01+'.html" target="_parent">'+month01+'</a>';
 let d01 = document.getElementById('day1').innerHTML;
 document.getElementById('day1').innerHTML = day1;
 let w01 = document.getElementById('writer1').innerHTML;
-document.getElementById('writer1').innerHTML = '<a href="writer/'+writersearch(writer01)+'/home.html" target="_parent">'+writer01+'</a>';
+document.getElementById('writer1').innerHTML = '<a href="https://dengeki-tdu.github.io/DENGEKI/article/fox/writer/'+writersearch(writer01)+'/home.html" target="_parent">'+writer01+'</a>';
 let ta01 = document.getElementById('tag1').innerHTML;
-document.getElementById('tag1').innerHTML = '<a href="tag/'+tagsearch(tag01)+'/'+tagsearch(tag01)+'.html" target="_parent">'+tag01+'</a>';
+document.getElementById('tag1').innerHTML = '<a href="https://dengeki-tdu.github.io/DENGEKI/article/fox/tag/'+tagsearch(tag01)+'/'+tagsearch(tag01)+'.html" target="_parent">'+tag01+'</a>';
 
 let t02 = document.getElementById('No02').innerHTML;
 document.getElementById('No02').innerHTML = '<a href="'+year02+'/'+month02+'/'+month02+day2+'.html"><h1>'+title02+'</h1></a>';
