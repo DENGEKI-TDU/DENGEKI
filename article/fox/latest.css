@@ -1,0 +1,20 @@
+html{
+    color:#4d3217;
+    font-family: "Avenir New";
+    background-color: #f9cfa6;
+}
+a{
+    color:#4d3217;
+}
+ul{
+    list-style: none;
+}
+.data{
+    text-align: right;
+}
+.none{
+    display: none;
+}
+span{
+    display: none;
+}

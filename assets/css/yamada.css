@@ -1,4 +1,184 @@
-@media screen and (min-width: 481px){
+@media screen and (min-width: 961px)
+{
+    html{
+        text-align: center;
+        color:#4d3217;
+        font-family:"Avenir New";
+    }
+    img{
+        width:100%;
+        height:auto;
+    }
+    ul{
+        list-style: none;
+    }
+    iframe{
+        scale: none;
+    }
+    .dengeki{
+        display: flex;
+    }
+    .search{
+        width: 15%;
+        height:100vh;
+    }
+    .search-mobile {
+        position: relative;
+        display: none;
+    }
+    .menu-button{
+        align-content: left;
+    }
+    .latest{
+        border-color: #fc8819;
+        width:90%;
+        height:210px;
+    }
+    .m1{
+        width:65%;
+        margin: 0 auto;
+    }
+    .m1-3{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .t1-mobile{
+        display: none;
+    }
+    .t1{
+        align-items: center;
+    }
+    .twitter{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .twitter-timeline{
+        width: 300px;
+    }
+    .coming_soon{
+        background-color: #fc8819;
+    }
+    .title{
+        background-color:#fc8819 ;
+    }
+    .right{
+        text-align: right;
+        align-content: right;
+        align-self: right;
+    }
+    .latest{
+        border: 4px;
+        border-color: #fc8819;
+    }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 960px) {
+    html{
+        color:#4d3217;
+        text-align: center;
+        font-family:"Avenir New";
+    }
+    img{
+        width:100%;
+        height:auto;
+    }
+    ul{
+        list-style: none;  
+        margin: auto;
+    }
+    ul li{
+        width: 100%;
+    }
+    .search {
+        display: none;
+    }
+    .search-mobile {
+        position: relative;
+        z-index: 2;
+    }
+    .c1{
+        align-content: center;
+        align-self: center;
+        align-items: center;
+    }
+    .search-mobile h1 {
+        font-size:18px;
+    }
+    .m1{
+        width: 100%;
+    }
+    .latest{
+        width:100%;
+        height:210px;
+        border: #fc8819;
+    }
+    .t1-mobile{
+        margin:auto;
+        align-items: center;
+    }
+    .t1{
+        display: none;
+    }
+    .title{
+        background-color:#fc8819 ;
+    }
+    .twitter-timeline{
+        width: 300px;
+        margin: 0 auto;
+    }
 }
+/*@media screen and (max-width: 960px) {
+    html{
+        color:#4d3217;
+        text-align: center;
+        font-family:"Avenir New";
+    }
+    img{
+        width:100%;
+        height:flex;
+    }
+    .search{
+        width: 100%;
+    }
+    .t1{
+        align-items: center;
+    }
+    .title{
+        background-color:#fc8819 ;
+    }
+    .twitter-timeline{
+        width: 85%;
+        margin: 0 auto;
+    }
+}*/
+/*@media screen and (max-width: 394px) {
+    html{
+        color:#4d3217;
+        text-align: center;
+        font-family:"Avenir New";
+    }
+    img{
+        width:100%;
+        height:flex;
+    }
+    ul{
+        list-style: none;
+    }
+    .latest{
+        border: #fc8819;
+        width:100%;
+        height:210px;
+    }
+    .search{
+        width: 100%;
+    }
+    .t1{
+        align-items: center;
+    }
+    .title{
+        background-color:#fc8819 ;
+    }
+    .twitter-timeline{
+        width: 85%;
+        margin: 0 auto;
+    }
+}*/
