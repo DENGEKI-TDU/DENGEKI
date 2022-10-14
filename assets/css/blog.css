@@ -5,13 +5,16 @@
     text-align: right;
 }
 .m1 img{
-    width:30%;
+    width:50%;
 }
 .latestarticle h1{
     font-size: 12pt;
 }
 .oreo{
     font-weight: 700;
+}
+.blog-honbun{
+    font-size:18pt;
 }
 @media screen and (max-width: 480px) {
     .m1 .blog-bar{
