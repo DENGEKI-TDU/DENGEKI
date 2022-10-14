@@ -1,0 +1,50 @@
+.year-list{
+    width:95%;
+    margin:0 auto;
+}
+
+.month-list {
+	list-style: none;
+	position: relative;
+	margin-bottom: 10px;
+	padding: 20px 70px 20px 30px;
+	cursor: pointer;
+	background-color: #fc8819;
+}
+
+.month-list::-webkit-details-marker {
+	display: none;
+}
+
+.month-list:hover,
+details[open] summary {
+	background-color:#4d3217;
+    color:#fc8819;
+}
+
+.month-list::after {
+	content: '+';
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	transition: transform 0.5s;
+	font-size: 30px;
+}
+
+.year-list[open] .month-list::after {
+	transform: translateY(-50%) rotate(45deg);
+}
+
+table {
+	padding: 20px 30px;
+}
+
+.year-list[open] table {
+	animation: fadein 0.5s ease;
+}
+
+@keyframes fadein {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
