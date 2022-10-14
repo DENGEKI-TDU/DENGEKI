@@ -25,7 +25,7 @@
         display: flex;
     }
     .gnavi__list {
-        width: 20%;
+        width: 16%;
         height: 60px;
         border-top: 2px solid #4d3217;
         border-bottom: 2px solid #4d3217;
@@ -67,63 +67,7 @@
     .gnavi__list:hover a {
         color: #fc8819;
     }
-    .dropdown__lists {
-        transform: scaleY(0);/*デフォルトでは非表示の状態にしておく*/
-        transform-origin: center top;/*変形を適応する基準をtopとする*/
-        transition: all .3s;/*表示の変化を0.3秒に指定*/
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-    }
-    .gnavi__list:hover .dropdown__lists {
-        transform: scaleY(1);/*Gナビメニューにホバーしたら表示*/
-    }
-    .dropdown__list {
-        background-color:#4d3217;
-        /*border-top: 1px solid #fc8819;
-        border-bottom: 1px solid #fc8819;
-        border-right: 2px solid #fc8819;
-        border-left: 2px solid #fc8819;*/
-        height: 60px;
-        transition: all .3s;
-        position: relative;
-    }
-    .dropdown__list:not(:first-child)::before{
-        content: "";
-        width: 100%;
-        height: 1px;
-        background-color:#fc8819;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    .dropdown__list:hover a {
-        color:#4d3217;
-    }
-    .dropdown__list:hover {
-        background-color: #fc8819;
-    }
-    .dropdown__list a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-        text-decoration: none;
-        position: relative;
-    }
-    .dropdown__list a::before {
-        content: '';
-        display: block;
-        width: 6px;
-        height: 6px;
-        border-top: 2px solid #fff;
-        border-left: 2px solid #fff;
-        transform: rotate(135deg);
-        position: absolute;
-        right: 15px;
-        top: calc(50% - 5px);
-    }
+    
 }
 @media screen and (max-width: 960px) {
     html{
