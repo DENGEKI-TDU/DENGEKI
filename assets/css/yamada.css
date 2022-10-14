@@ -20,7 +20,7 @@
     }
     .search{
         width: 15%;
-        height:100vh;
+        position: sticky;
     }
     .search-mobile {
         position: relative;

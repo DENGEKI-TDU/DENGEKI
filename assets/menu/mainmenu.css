@@ -4,6 +4,7 @@
         text-align: center;
         color:#4d3217;
         font-family:"Avenir New";
+        align-items: center;
     }
     ul{
         list-style: none;
@@ -20,9 +21,11 @@
         top:0px;
         width: 100%;
         margin: 0 auto;
+        align-items: center;
     }
     .gnavi__lists {
         display: flex;
+        align-self: center;
     }
     .gnavi__list {
         width: 16%;
