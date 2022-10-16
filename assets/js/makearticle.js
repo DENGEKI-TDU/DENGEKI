@@ -84,7 +84,7 @@ function dispText() {
                             "\t\t\t\t\t<div class=\"information\">\n"+
                                 "\t\t\t\t\t\t<p><a href=\"../"+document.formname.a002.value+".html\">"+document.formname.a002.value+"</a>/<a href=\""+document.formname.a002.value+".html\">"+document.formname.a003.value+"</a>/"+document.formname.a004.value+"<br>\n"+
                                 "\t\t\t\t\t\twriter:<a href=\"../../writer/"+writersearch(document.formname.a005.value)+"/home.html\">"+document.formname.a005.value+"</a><br>\n"+
-                                "\t\t\t\t\t\ttag:<a href=\"../../tag/"+tagsearch(document.formname.a006.value)+"/"+tagsearch(document.formname.a006.value)+".html\">"+document.formname.a006.value+"</a></p>\n"+
+                                "\t\t\t\t\t\ttag:<a href=\"../../tag/"+document.formname.a006.value+"/"+document.formname.a006.value+".html\">"+tagsearch(document.formname.a006.value)+"</a></p>\n"+
                             "\t\t\t\t\t</div>\n"+
                             "\t\t\t\t\t<p class=\"blog-honbun\">\n"+
                                 document.formname.a007.value+
@@ -172,17 +172,17 @@ function writersearch(x){
 
 function tagsearch(y){
     switch(y){
-        case 'きつねの日常':
-            y='nichijou'
+        case 'nichijou':
+            y='きつねの日常'
             break;
-        case 'きつねからのお知らせ':
-            y='news'
+        case 'news':
+            y='きつねからのお知らせ'
             break;
-        case 'きつねの思い出':
-            y='memory'
+        case 'memory':
+            y='きつねの思い出'
             break;
-        case '突撃！今日のでんげき！':
-            y='totsugeki'
+        case 'totsugeki':
+            y='突撃！今日のでんげき！'
             break;
     }
     return y;

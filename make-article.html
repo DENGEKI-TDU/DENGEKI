@@ -3,30 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>きつねのお部屋-記事作成ツール</title>
-    <h1>記事作成ツール</h1>
+    <link rel="stylesheet" href="assets/css/makearticle.css" type="text/css">
+    <link rel="shortcut icon" href="assets/img/icon.ico" type="image/vnd.microsoft.icon">
+    <link rel="apple-touch-icon" src="assets/img/apple-touch-icon.jpeg">
 </head>
 <body>
+    <h1>記事作成ツール</h1>
     <form name="formname" id="id_form" action="">
         <label id="001">タイトル</label>
         <input type="text" name="a001" size="30" maxlenglabel="30" value="">
         </br>
-        <label id="002">year: </label>
+        <label id="002">投稿年：</label>
         <input type="text" name="a002" size="30" maxlenglabel="30" value="">
         </br>
-        <label id="003">month: </label>
+        <label id="003">投稿月：</label>
         <input type="text" name="a003" size="30" maxlenglabel="30" value="">
         </br>
-        <label id="004">day: </label>
-        <input type="text" name="a004" size="8" maxlenglabel="8" value="">
+        <label id="004">投稿日：</label>
+        <input type="text" name="a004" size="30" maxlenglabel="30" value="">
         </br>
-        <label id="005">writer: </label>
+        <label id="005">投稿者：</label>
         <input type="text" name="a005" size="30" maxlenglabel="30" value="">
         </br>
-        <label id="006">tag: </label>
-        <input type="text" name="a006" size="30" maxlenglabel="30" value="">
+        <label id="006">タグ名：</label>
+        <select name="a006">
+            <option value="">タグを選択</option>
+            <option value="nichijou">きつねの思い出</option>
+            <option value="memory">きつねの思い出</option>
+            <option value="news">きつねからのお知らせ</option>
+            <option value="totsugeki">突撃！今日のでんげき！</option>
+        </select>
         </br>
-        <label id="007">writer: </label>
-        <textarea type="text" name="a007" size="100%" maxlenglabel="100%" value=""></textarea>
+        <label id="007">本文：</label>
+        <textarea type="text" name="a007" rows="50" value=""></textarea>
         </br>
         <a id="createFile" href="#" download="outFile.html" value="ファイル作成" onclick="dispText()">ファイル作成</a>
     </form>
