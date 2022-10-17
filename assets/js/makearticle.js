@@ -1,7 +1,3 @@
-function filename(){
-
-}
-    
 function dispText() {
     var text = 
         "<!DOCTYPE html>\n"+
@@ -129,7 +125,6 @@ function dispText() {
         "</html>"
     var blob = new Blob([text], { "type": "text/plain" });
 
-    //IEの場合
     const a = document.createElement('a');
     a.href = 'data:text/plain,' + encodeURIComponent(text);
     a.download = document.formname.a003.value+document.formname.a004.value+'.html';
