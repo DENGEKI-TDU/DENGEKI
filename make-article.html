@@ -23,12 +23,29 @@
         <input type="text" name="a004" size="30" maxlenglabel="30" value="">
         </br>
         <label id="005">投稿者：</label>
-        <input type="text" name="a005" size="30" maxlenglabel="30" value="">
+        <select name="a005">
+            <option value="">タグを選択</option>
+            <option value="tsuyu">つゆ</option>
+            <option value="teo">テオ</option>
+            <option value="mano">まの</option>
+            <option value="aki">あきのすけ</option>
+            <option value="yoru">ヨルノ</option>
+            <option value="imu">ｲﾑﾙﾀ</option>
+            <option value="root">ると</option>
+            <option value="ray">レイ</option>
+            <option value="toriki">トリキ</option>
+            <option value="ritsu">りつ</option>
+            <option value="roma">ロマ</option>
+            <option value="beleth">ベレト</option>
+            <option value="sora">そら</option>
+            <option value="proof">プルフ</option>
+            <option value="float">フロート</option>
+        </select>
         </br>
         <label id="006">タグ名：</label>
         <select name="a006">
             <option value="">タグを選択</option>
-            <option value="nichijou">きつねの思い出</option>
+            <option value="nichijou">きつねの日常</option>
             <option value="memory">きつねの思い出</option>
             <option value="news">きつねからのお知らせ</option>
             <option value="totsugeki">突撃！今日のでんげき！</option>
@@ -37,7 +54,9 @@
         <label id="007">本文：</label>
         <textarea type="text" name="a007" rows="50" value=""></textarea>
         </br>
-        <a id="createFile" href="#" download="outFile.html" value="ファイル作成" onclick="dispText()">ファイル作成</a>
+        <a id="createFile" href="#" download="outFile.html" value="ファイルダウンロード" onclick="dispText()"><h1>記事作成</h1></a>
+        <br>
+        <p id="fileupload"></p>
     </form>
     <script src="assets/js/makearticle.js"></script>
 </body>

@@ -1,3 +1,7 @@
+function filename(){
+
+}
+    
 function dispText() {
     var text = 
         "<!DOCTYPE html>\n"+
@@ -83,7 +87,7 @@ function dispText() {
                             "\t\t\t\t\t</div>\n"+
                             "\t\t\t\t\t<div class=\"information\">\n"+
                                 "\t\t\t\t\t\t<p><a href=\"../"+document.formname.a002.value+".html\">"+document.formname.a002.value+"</a>/<a href=\""+document.formname.a002.value+".html\">"+document.formname.a003.value+"</a>/"+document.formname.a004.value+"<br>\n"+
-                                "\t\t\t\t\t\twriter:<a href=\"../../writer/"+writersearch(document.formname.a005.value)+"/home.html\">"+document.formname.a005.value+"</a><br>\n"+
+                                "\t\t\t\t\t\twriter:<a href=\"../../writer/"+document.formname.a005.value+"/home.html\">"+writersearch(document.formname.a005.value)+"</a><br>\n"+
                                 "\t\t\t\t\t\ttag:<a href=\"../../tag/"+document.formname.a006.value+"/"+document.formname.a006.value+".html\">"+tagsearch(document.formname.a006.value)+"</a></p>\n"+
                             "\t\t\t\t\t</div>\n"+
                             "\t\t\t\t\t<p class=\"blog-honbun\">\n"+
@@ -126,45 +130,67 @@ function dispText() {
     var blob = new Blob([text], { "type": "text/plain" });
 
     //IEの場合
-    if (window.navigator.msSaveBlob) {
-        window.navigator.msSaveBlob(blob, "outFileFromWindows.txt");
-        //IE以外の場合
-    } else {
-        document.getElementById("createFile").href = window.URL.createObjectURL(blob);
-    }
+    const a = document.createElement('a');
+    a.href = 'data:text/plain,' + encodeURIComponent(text);
+    a.download = document.formname.a003.value+document.formname.a004.value+'.html';
+
+    a.style.display = 'none';
+    document.body.appendChild(a); // ※ DOM が構築されてからでないとエラーになる
+    a.click();
+    document.body.removeChild(a);
+
+    
+    let t02 = document.formname.a002.value
+    let t03 = document.formname.a003.value
+    document.getElementById('fileupload').innerHTML = '<a href="https://github.com/DENGEKI-TDU/DENGEKI/tree/main/article/fox/'+t02+'/'+t03+'">ダウンロードされたファイルをここにアップロードしてください</a>';
 }
 
 function writersearch(x){
     switch(x){
-        case 'ｲﾑﾙﾀ':
-            x='imu';
+        case 'tsuyu':
+            x='つゆ';
             break;
-        case 'ると':
-            x='root';
+        case 'teo':
+            x='テオ';
             break;
-        case 'レイ':
-            x='ray';
+        case 'mano':
+            x='まの';
             break;
-        case 'トリキ':
-            x='toriki';
+        case 'aki':
+            x='あきのすけ';
             break;
-        case 'りつ':
-            x='ritsu';
+        case 'yoru':
+            x='ヨルノ';
+            break;
+        case 'imu':
+            x='ｲﾑﾙﾀ';
+            break;
+        case 'root':
+            x='ると';
+            break;
+        case 'ray':
+            x='レイ';
+            break;
+        case 'toriki':
+            x='トリキ';
+            break;
+        case 'ritsu':
+            x='りつ';
             break
-        case 'ロマ':
-            x='roma';
+        case 'roma':
+            x='ロマ';
             break;
-        case 'ベレト':
-            x='beleth';
+        case 'beleth':
+            x='ベレト';
             break;
-        case 'そら':
-            x='sora';
+        case 'sora':
+            x='そら';
             break;
-        case 'プルフ':
-            x='proof'
+        case 'proof':
+            x='プルフ'
             break;
-        case 'フロート':
-            x='float';
+        case 'float':
+            x='フロート';
             break;
     }
     return x;
