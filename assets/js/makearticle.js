@@ -1,7 +1,7 @@
 function dispText() {
     var text = 
         "<!DOCTYPE html>\n"+
-        "<html>"+
+        "<html>\n"+
             "\t<head>\n"+
                 "\t\t<meta charset=\"utf-8\">\n"+
                 "\t\t<meta http-equiv=\"X-UA-Comatible\"content=\"IE=edge\">\n"+
@@ -12,7 +12,7 @@ function dispText() {
                 "\t\t<link rel = \"stylesheet\" href = \"../../../../assets/css/blog.css\" type = \"text/css\">\n"+
                 "\t\t<title id=\"head-title\">\n"+
                     "\t\t\tはじめまして！ - きつねのお部屋 - でんげき\n"+
-                "\t\t</title>"+
+                "\t\t</title>\n"+
                 "\t\t<link rel=\"shortcut icon\" href=\"../../../../assets/img/icon.ico\" type=\"image/vnd.microsoft.icon\">\n"+
                 "\t\t<link rel=\"apple-touch-icon\" src=\"../../../../assets/img/apple-touch-icon.jpeg\">\n"+
             "\t</head>\n"+
