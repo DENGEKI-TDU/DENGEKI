@@ -1,0 +1,24 @@
+<html>
+    <script language="javascript" type="text/javascript">
+        function makelink(){
+            let element1 = document.getElementById('f001');
+            let f01 = element1.value;
+            let f02 = element1.name;
+            let t02 = document.formname.a002.value;
+            let element = document.getElementById('makelink');
+            console.log(element1.name)
+            document.getElementById('link').innerHTML = "<h1>&lt;img src=\"img/"+f02+"\" alt=\""+t02+"\"&gt;&lt;br&gt;</h1>";
+        }
+    </script>
+    <form name="formname" id="id_form" action="">
+        <label id="001">挿入したい画像</label>
+        <input id="f001" type="file" accept=".jpg,.jpeg,.png,.gif"><br>
+        <label id="002">写真のALT情報を入力</label>
+        <input type="text" name="a002" size="30" maxlenglabel="30" value=""><br>
+    </form>
+    <input type="button" value="リンク作成" onclick="makelink()"><br>
+    <p>以下の文章をそのままコピー＆ペーストしてください。</p>
+    <span id="link">
+        <h1></h1>
+    </span>
+</html>

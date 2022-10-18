@@ -54,6 +54,15 @@
         <label id="007">本文：</label>
         <textarea type="text" name="a007" rows="50" value=""></textarea>
         </br>
+        <a href="makelink.html" target="h01">リンクの挿入</a>
+        <a href="makelink3.html" target="h01">画像の挿入</a>
+        <iframe frameborder="0" width="100%" height="300" id="h01" name="h01"></iframe>
+        <!-- <script>
+            const h01 = document.getElementById("h01");
+            function func01(){
+                h01.style.height = h01.contentWindow.document.body.scrollHeight+"px";
+            }
+        </script> -->
         <a id="createFile" href="#" download="outFile.html" value="ファイルダウンロード" onclick="dispText()"><h1>記事作成</h1></a>
         <br>
         <p id="fileupload"></p>

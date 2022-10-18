@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <script>
+    function makelink(){
+        let files = fileBox.files;
+        let f01 = files[0].name;
+        let t02 = document.formname.a002.value;
+        document.getElementById('link').innerHTML = "<h1>&lt;img src=\"img/"+f01+"\" alt=\""+t02+"\"&gt;&lt;br&gt;</h1>";
+    }
+    </script>
+    <div>
+    <label>画像ファイルを選択</label>
+    <input type="file" id="fileBox">
+    </div>
+    <form name="formname" id="id_form" action="">
+        <label id="002">写真のALT情報を入力</label>
+        <input type="text" name="a002" size="30" maxlenglabel="30" value=""><br>
+    </form>
+    <input type="button" value="リンク作成" onclick="makelink()"><br>
+    <p>以下の文章をそのままコピー＆ペーストしてください。</p>
+    <span id="link">
+        <h1></h1>
+    </span>
+</html>

@@ -76,7 +76,7 @@ function dispText() {
                                 "\t\t\t\t\t\t</details>\n"+
                             "\t\t\t\t\t</div>\n"+
                             "\t\t\t\t\t<h1 class=\"title\" id=\"body-title\">\n"+
-                                "\t\t\t\t\t\t"+document.formname.a001.value +"\n"+
+                                "\t\t\t\t\t\t"+document.formname.a001.value+"\n"+
                             "\t\t\t\t\t</h1>\n"+
                             "\t\t\t\t\t<div class=\"blog-bar\">\n"+
                                 "\t\t\t\t\t\t<p><a href=\"../../home.html\">きつねのお部屋</a>><a href=\"../"+document.formname.a002.value+".html\">"+document.formname.a002.value+"年</a>><a href=\""+document.formname.a003.value+".html\">"+document.formname.a003.value+"</a></p>\n"+
