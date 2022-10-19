@@ -70,7 +70,6 @@ function dispText() {
                                             "\t\t\t\t\t\t\t\t\t<li><a href=\"../../writer/roma/roma.html\" target=\"_parent\">ロマ</a></li>\n"+
                                             "\t\t\t\t\t\t\t\t\t<li><a href=\"../../writer/beleth/beleth.html\" target=\"_parent\">ベレト</a></li>\n"+
                                             "\t\t\t\t\t\t\t\t\t<li><a href=\"../../writer/sora/sora.html\" target=\"_parent\">そら</a></li>\n"+
-                                            "\t\t\t\t\t\t\t\t\t<li><a href=\"../../writer/proof/proof.html\" target=\"_parent\">プルフ</a></li>\n"+
                                             "\t\t\t\t\t\t\t\t\t<li><a href=\"../../writer/float/float.html\" target=\"_parent\">フロート</a></li>\n"+
                                         "\t\t\t\t\t\t\t\t</ul>\n"+
                                     "\t\t\t\t\t\t\t</details>\n"+
@@ -97,7 +96,7 @@ function dispText() {
                                 "\t\t\t\t\t\ttag:<a href=\"../../tag/"+document.formname.a006.value+"/"+document.formname.a006.value+".html\">"+tagsearch(document.formname.a006.value)+"</a></p>\n"+
                             "\t\t\t\t\t</div>\n"+
                             "\t\t\t\t\t<p class=\"blog-honbun\">\n"+
-                            display+
+                            "\t\t\t\t\t"+display+
                             "\t\t\t\t\t</p>\n"+
                             "\t\t\t\t\t<div class =\"t1-mobile\">\n"+
                                 "\t\t\t\t\t\t<div class = \"twitter\">\n"+
