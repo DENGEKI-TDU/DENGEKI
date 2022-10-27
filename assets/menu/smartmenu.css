@@ -13,14 +13,17 @@ nav {
     background-color: #4d3217;
     padding: 0px 0;
 }
-ul {
+.nav ul {
     display: block;
     justify-content: center;
     text-align: center;
     list-style-type: none;
 }
-li {
+.nav li {
     padding: 8px 32px;
+}
+.nav .gnavi__list{
+    width: 112px;
 }
 .nav a {
     text-decoration: none;
