@@ -20,6 +20,8 @@ function dispText() {
                 "\t\t<link rel = \"stylesheet\" href = \"../../../../assets/css/stylesheet.css\" type=\"text/css\">\n"+
                 "\t\t<link rel = \"stylesheet\" href = \"../../../../assets/css/yamada.css\" type = \"text/css\">\n"+
                 "\t\t<link rel = \"stylesheet\" href = \"../../../../assets/css/blog.css\" type = \"text/css\">\n"+
+                "\t\t<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined\" rel=\"stylesheet\">\n"+
+                "\t\t<link rel=\"stylesheet\" href=\"../../../../assets/menu/smartmenu.css\" type=\"text/css\">\n"+
                 "\t\t<title id=\"head-title\">\n"+
                     "\t\t\tはじめまして！ - きつねのお部屋 - でんげき\n"+
                 "\t\t</title>\n"+
@@ -27,12 +29,39 @@ function dispText() {
                 "\t\t<link rel=\"apple-touch-icon\" src=\"../../../../assets/img/apple-touch-icon.jpeg\">\n"+
             "\t</head>\n"+
             "\t<body>\n"+
+            "\t<nav class=\"nav\">\n"+
+                "\t\t<div class=\"toggle-button\" style=\"top: 0px;\">\n"+
+                    "\t\t\t<button>\n"+
+                    "\t\t\t<span class=\"material-icons-outlined\"> menu </span>\n"+
+                    "\t\t\t</button>\n"+
+                "\t\t</div>\n"+
+                "\n"+
+                "\t\t<ul class=\"links\" style=\"margin: 0;padding-top: 0px;\">\n"+
+                    "\t\t\t<li class=\"gnavi__list\">\n"+
+                        "\t\t\t\t<a href=\"../../../../index.html\" target=\"_parent\">HOME</a>\n"+
+                    "\t\t\t</li>\n"+
+                    "\t\t\t<li class=\"gnavi__list\">\n"+
+                        "\t\t\t\t<a href=\"../../../../about/index.html\" target=\"_parent\">about</a>\n"+
+                    "\t\t\t</li>\n"+
+                    "\t\t\t<li class=\"gnavi__list\">\n"+
+                        "\t\t\t<a href=\"../../../../article/index.html\" target=\"_parent\">公演のお知らせ</a>\n"+
+                    "\t\t\t</li>\n"+
+                    "\t\t\t<li class=\"gnavi__list\">\n"+
+                        "\t\t\t<a href=\"../../../../article/fox/home.html\" target=\"_parent\">きつねのお部屋</a>\n"+
+                    "\t\t\t</li>\n"+
+                    "\t\t\t<li class=\"gnavi__list\">\n"+
+                        "\t\t\t\t<a href=\"../../../../member/index.html\" target=\"_parent\">member</a>\n"+
+                    "\t\t\t</li>\n"+
+                    "\t\t\t<li class=\"gnavi__list\">\n"+
+                        "\t\t\t\t<a href=\"../../../../contact/index.html\" target=\"_parent\">contact</a>\n"+
+                    "\t\t\t</li>\n"+
+                "\t\t</ul>\n"+
+            "\t</nav>\n"+
+            "\t<script src=\"../../../../assets/js/testmenu.js\"></script>\n"+
+            "\t<main>\n"+
                 "\t\t<header>\n"+
-                    "\t\t\t<h1 class =\"logo\">\n"+
-                        "\t\t\t\t<img src = \"../../../../assets/img/home.jpg\">\n"+
-                    "\t\t\t</h1>\n"+
+                    "\t\t\t<img class=\"logo\" src = \"../../../../assets/img/home.jpg\">\n"+
                 "\t\t</header>\n"+
-                "\t\t<main>\n"+
                     "\t\t\t<iframe class=\"menu\" frameborder=\"0\" width=\"100%\" height=\"auto\" src=\"../../../../assets/menu/mainmenu.html\"></iframe>\n"+
                     "\t\t\t<div class=\"dengeki\">\n"+
                         "\t\t\t\t<iframe class=\"search\" frameborder=\"0\" src=\"../../search.html\"></iframe>\n"+
