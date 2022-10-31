@@ -1,0 +1,51 @@
+html{
+    margin: 0;
+    align-items: center;
+}
+button{
+    background-color: #4d3217;
+}
+.material-icons-outlined{
+    color:#fc8819;
+}
+nav {
+    position: relative;
+    background-color: #4d3217;
+    padding: 0px 0;
+}
+.nav ul {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+.nav li {
+    padding: 8px 32px;
+}
+.nav .gnavi__list{
+    width: 112px;
+}
+.nav a {
+    text-decoration: none;
+    color:#fc8819;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+.toggle-button {
+    position: sticky;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.links {
+    height: 0;
+    overflow: hidden;
+}
+.show {
+    height: 240px;
+}
+body{
+    margin:0;
+}
