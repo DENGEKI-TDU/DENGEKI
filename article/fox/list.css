@@ -48,3 +48,9 @@ table {
 	0% { opacity: 0; }
 	100% { opacity: 1; }
 }
+
+.search-mobile,
+details[open] summary {
+	background-color:white;
+    color:#4d3217;
+}
