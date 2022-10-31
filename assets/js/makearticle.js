@@ -120,7 +120,7 @@ function dispText() {
                                 "\t\t\t\t\t\t<p><a href=\"../../home.html\">きつねのお部屋</a>><a href=\"../"+document.formname.a002.value+".html\">"+document.formname.a002.value+"年</a>><a href=\""+document.formname.a003.value+".html\">"+document.formname.a003.value+"</a></p>\n"+
                             "\t\t\t\t\t</div>\n"+
                             "\t\t\t\t\t<div class=\"information\">\n"+
-                                "\t\t\t\t\t\t<p><a href=\"../"+document.formname.a002.value+".html\">"+document.formname.a002.value+"</a>/<a href=\""+document.formname.a002.value+".html\">"+document.formname.a003.value+"</a>/"+document.formname.a004.value+"<br>\n"+
+                                "\t\t\t\t\t\t<p><a href=\"../"+document.formname.a002.value+".html\">"+document.formname.a002.value+"</a>/<a href=\""+document.formname.a003.value+".html\">"+document.formname.a003.value+"</a>/"+document.formname.a004.value+"<br>\n"+
                                 "\t\t\t\t\t\twriter:<a href=\"../../writer/"+document.formname.a005.value+"/home.html\">"+writersearch(document.formname.a005.value)+"</a><br>\n"+
                                 "\t\t\t\t\t\ttag:<a href=\"../../tag/"+document.formname.a006.value+"/"+document.formname.a006.value+".html\">"+tagsearch(document.formname.a006.value)+"</a></p>\n"+
                             "\t\t\t\t\t</div>\n"+
