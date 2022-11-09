@@ -1,7 +1,7 @@
-let title01 = '公演振り返り企画#5だｺﾝ。'
+let title01 = '鳩祭だったｺﾝ。'
 let year01 = '2022'
 let month01 = '11'
-let day1 = '04'
+let day1 = '09'
 let writer01 = 'ベレト'
 let tag01 = 'きつねの思い出'
 
