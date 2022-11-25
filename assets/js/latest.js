@@ -1,9 +1,9 @@
-let title01 = '代替わりしたｺﾝ。'
+let title01 = '最近のでんげき'
 let year01 = '2022'
 let month01 = '11'
-let day1 = '17'
+let day1 = '25'
 let writer01 = 'ベレト'
-let tag01 = 'きつねからのお知らせ'
+let tag01 = 'きつねの日常'
 
 let t01 = document.getElementById('No01').innerHTML;
 document.getElementById('No01').innerHTML = '<a href="https://dengeki-tdu.github.io/DENGEKI/article/fox/'+year01+'/'+month01+'/'+month01+day1+'.html" target="_parent"><h1>'+title01+'</h1></a>';
