@@ -1,7 +1,7 @@
 let title01 = 'お引越しだｺﾝ。'
 let year01 = '2022'
 let month01 = '12'
-let day1 = '9'
+let day1 = '09'
 let writer01 = 'ベレト'
 let tag01 = 'きつねからのお知らせ'
 
