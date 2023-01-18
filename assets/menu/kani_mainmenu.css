@@ -30,16 +30,16 @@
     .gnavi__list {
         width: 16.666666666666666666666666666666666666%;
         height: 60px;
-        border-top: 2px solid blue;
-        border-bottom: 2px solid blue;
-        border-right: 1px solid blue;
-        border-left: 1px solid blue;
+        border-top: 2px solid #191970;
+        border-bottom: 2px solid #191970;
+        border-right: 1px solid #191970;
+        border-left: 1px solid #191970;
         background-color:aqua;
         position: relative;
         transition: all .3s;
     }
     .gnavi__list:hover {
-        background-color: blue;
+        background-color: #191970;
         border: 2px solid aqua;
     }
     .gnavi__list:not(:first-child)::before {
@@ -52,7 +52,7 @@
         transition: all .3s;
     }
     .gnavi__list:hover::before {
-        background-color: blue;
+        background-color: #191970;
     }
     .gnavi__list a {
         display: flex;
@@ -61,7 +61,7 @@
         width: 100%;
         height: 100%;
         text-decoration: none;
-        color: blue;
+        color: #191970;
         font-size: 15px;
         letter-spacing: 0.05em;
         font-weight: 600;
