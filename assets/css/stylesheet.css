@@ -52,6 +52,9 @@
     .title{
         background-color:#fc8819 ;
     }
+    .tirashi{
+        width:30%;
+    }
 }
 @media screen and (max-width: 960px) {
     html{
