@@ -23,7 +23,7 @@ function dispText() {
                 "\t\t<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined\" rel=\"stylesheet\">\n"+
                 "\t\t<link rel=\"stylesheet\" href=\"../../../../assets/menu/smartmenu.css\" type=\"text/css\">\n"+
                 "\t\t<title id=\"head-title\">\n"+
-                    "\t\t\tはじめまして！ - きつねのお部屋 - でんげき\n"+
+                    "\t\t\t"+document.formname.a001.value+" - きつねのお部屋 - でんげき\n"+
                 "\t\t</title>\n"+
                 "\t\t<link rel=\"shortcut icon\" href=\"../../../../assets/img/icon.ico\" type=\"image/vnd.microsoft.icon\">\n"+
                 "\t\t<link rel=\"apple-touch-icon\" src=\"../../../../assets/img/apple-touch-icon.jpeg\">\n"+
@@ -72,7 +72,7 @@ function dispText() {
                                     "\t\t\t\t\t\t\t<p>最新記事はこちら↓\n"+
                                     "\t\t\t\t\t\t\t</p>\n"+
                                     "\t\t\t\t\t\t\t<span id=\"No01\"><a href=\"../fox/2022/10/1014.html\"  class=\"title\"><h1>はじめまして！</h1></a></span>\n"+
-                                    "\t\t\t\t\t\t\t<script src=\"../../assets/js/latest.js\"></script>\n"+
+                                    "\t\t\t\t\t\t\t<script src=\"../../../../assets/js/latest.js\"></script>\n"+
                                     "\t\t\t\t\t\t\t<details class=\"c1\">\n"+
                                         "\t\t\t\t\t\t\t\t<summary>投稿日時で絞り込み</summary>\n"+
                                         "\t\t\t\t\t\t\t\t<details class=\"c2\">\n"+

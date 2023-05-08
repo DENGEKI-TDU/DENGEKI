@@ -3,14 +3,14 @@ html{
     align-items: center;
 }
 button{
-    background-color: #191970;
+    background-color: blue;
 }
 .material-icons-outlined{
     color:skyblue;
 }
 nav {
     position: relative;
-    background-color: #191970;
+    background-color: blue;
     padding: 0px 0;
 }
 .nav ul {
