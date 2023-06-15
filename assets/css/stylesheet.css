@@ -27,6 +27,11 @@
     .m1{
         width:80%;
     }
+    .m2{
+        width:50%;
+        text-align: left;
+        margin: auto;
+    }
     .m1-3{
         width: 100%;
         margin: 0 auto;
@@ -54,6 +59,9 @@
     }
     .tirashi{
         width: 30%;
+    }
+    .twitter-tweet{
+        align-items: center;
     }
 }
 @media screen and (max-width: 960px) {
