@@ -15,13 +15,13 @@
         width: 100%;
     }
     .l2022lists img {
-        transition: transform .6s ease; /* ゆっくり変化させる */
+        transition: transform 1s ease; /* ゆっくり変化させる */
         overflow: hidden;
         width:100%;
         height: 100%;
     }
     .l2022lists:hover img {
-        transform: scale(1.1); /* 拡大 */
+        transform: scale(1.5); /* 拡大 */
     }
     .l2022lists h1 {
         align-items: center; /* テキストの中央揃え */
