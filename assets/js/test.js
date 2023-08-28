@@ -103,7 +103,7 @@ function dispText() {
                                 "\t\t\t\t\t\t<div class = \"twitter\">\n"+
                                     "\t\t\t\t\t\t\t<div class=\"dengeki\">\n"+
                                         "\t\t\t\t\t\t\t\t<a class=\"twitter-timeline\" height=\"900\" href=\"https://twitter.com/TDUdramaclub?ref_src=twsrc%5Etfw\">\n"+
-                                            "\t\t\t\t\t\t\t\t\tTweets by TDUdramaclub\n"+
+                                            "\t\t\t\t\t\t\t\t\tPosts by TDUdramaclub\n"+
                                         "\t\t\t\t\t\t\t\t</a> \n"+
                                         "\t\t\t\t\t\t\t\t<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\">\n"+
                                         "\t\t\t\t\t\t\t\t</script>\n"+
@@ -115,7 +115,7 @@ function dispText() {
                             "\t\t\t\t\t<div class = \"twitter\">\n"+
                                 "\t\t\t\t\t\t<div class=\"dengeki\">\n"+
                                     "\t\t\t\t\t\t\t<a class=\"twitter-timeline\" height=\"900\" href=\"https://twitter.com/TDUdramaclub?ref_src=twsrc%5Etfw\">\n"+
-                                        "\t\t\t\t\t\t\t\tTweets by TDUdramaclub\n"+
+                                        "\t\t\t\t\t\t\t\tPosts by TDUdramaclub\n"+
                                     "\t\t\t\t\t\t\t</a>\n"+ 
                                     "\t\t\t\t\t\t\t<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n"+
                                 "\t\t\t\t\t\t</div>\n"+
